@@ -2,7 +2,7 @@
 
 The Wellth Contingency Plan establishes procedures to recover Wellth following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the Wellth Security Officer and Privacy Officer.
 
-The following objectives have been established for this plan: 
+The following objectives have been established for this plan:
 
 1. Maximize the effectiveness of contingency operations through an established plan that consists of the following phases:
 	* *Notification/Activation phase* to detect and assess damage and to activate the plan;
@@ -10,14 +10,14 @@ The following objectives have been established for this plan:
 	* *Reconstitution phase* to restore IT system processing capabilities to normal operations.
 2. Identify the activities, resources, and procedures needed to carry out Wellth processing requirements during prolonged interruptions to normal operations.
 3. Identify and define the impact of interruptions to Wellth systems.
-4. Assign responsibilities to designated personnel and provide guidance for recovering Wellth during prolonged periods of interruption to normal operations. 
+4. Assign responsibilities to designated personnel and provide guidance for recovering Wellth during prolonged periods of interruption to normal operations.
 5. Ensure coordination with other Wellth staff who will participate in the contingency planning strategies.
-6. Ensure coordination with external points of contact and vendors who will participate in the contingency planning strategies. 
+6. Ensure coordination with external points of contact and vendors who will participate in the contingency planning strategies.
 
-This Wellth Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information. 
+This Wellth Contingency Plan has been developed as required under the Office of Management and Budget (OMB) Circular A-130, Management of Federal Information Resources, Appendix III, November 2000, and the Health Insurance Portability and Accountability Act (HIPAA) Final Security Rule, Section §164.308(a)(7), which requires the establishment and implementation of procedures for responding to events that damage systems containing electronic protected health information.
 
 This Wellth Contingency Plan is created under the legislative requirements set forth in the Federal Information Security Management Act (FISMA) of 2002 and the guidelines established by the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-34, titled "Contingency Planning Guide for Information Technology Systems" dated June 2002.
- 
+
 The Wellth Contingency Plan also complies with the following federal and departmental policies:
 
 * The Computer Security Act of 1987;
@@ -47,15 +47,14 @@ Wellth defined two categories of systems from a disaster recovery perspective.
 
 The following order of succession to ensure that decision-making authority for the Wellth Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Adam Leko, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Wellth Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-* Adam Leko, CTO: 414-335-0253, adam@catalyze.io
-* Travis Good, CEO: 303-351-2640, travis@catalyze.io
-* Mohan Balachandran, CPO: 214-215-7998, mohan@catalyze.io
+* Alec Zopf, CTO: 610-308-6694, alec@wellthapp.com
+* Matthew Loper, CEO: 714-235-1998, matt@wellthapp.com
 
 ## Responsibilities
 
-The following teams have been developed and trained to respond to a contingency event affecting the IT system. 
+The following teams have been developed and trained to respond to a contingency event affecting the IT system.
 
-1. The **Ops Team** is responsible for recovery of the Wellth hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Wellth. The team leader is the VP of Engineering and directs the Dev Ops Team. 
+1. The **Ops Team** is responsible for recovery of the Wellth hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Wellth. The team leader is the VP of Engineering and directs the Dev Ops Team.
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
 ## Testing and Maintenance
@@ -74,7 +73,7 @@ The primary objective of the technical test is to ensure the communication proce
 
 * Process from backup system at the alternate site;
 * Restore system using backups; and
-* Switch compute and storage resources to alternate processing site. 
+* Switch compute and storage resources to alternate processing site.
 
 ## 1. Notification and Activation Phase
 
@@ -88,7 +87,7 @@ The notification sequence is listed below:
 	* Damage Assessment Procedures:
 	* The CTO and VP of Engineering are to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
 	* Alternate Assessment Procedures:
-	* Upon notification from the CTO, the VP of Engineering is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams. 
+	* Upon notification from the CTO, the VP of Engineering is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams.
 * The Wellth Contingency Plan is to be activated if one or more of the following criteria are met:
 	* Wellth will be unavailable for more than 48 hours.
 	* Hosting facility is damaged and will be unavailable for more than 24 hours.
@@ -101,9 +100,9 @@ The notification sequence is listed below:
 
 ## 2. Recovery Phase
 
-This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities. 
+This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities.
 
-The following procedures are for recovering the Wellth infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations. 
+The following procedures are for recovering the Wellth infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations.
 
 Recovery Goal: The goal is to rebuild Wellth infrastructure to a production state.
 
@@ -132,4 +131,4 @@ This section discusses activities necessary for restoring Wellth operations at t
 
 2. Plan Deactivation
 
-If the Wellth environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Wellth Media Disposal Policy. 
+If the Wellth environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Wellth Media Disposal Policy.

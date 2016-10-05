@@ -32,7 +32,7 @@ The Wellth incident response process follows the process recommended by SANS, an
 	1. Direct report to management, the Security Officer, Privacy Officer, or other;
 	2. Email;
 	3. Phone call;
-	4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
+	4. Online incident response form
 	5. Secure Chat.
 	6. Anonymously through workforce members desired channels.
 	7. The individual receiving the report facilitates completion of an [Incident Identification form](./incident.form.pdf) and notifies the Security Officer (if not already done).
@@ -63,9 +63,9 @@ In this Phase, Wellth’s IT department attempts to contain the security inciden
 	4. If appropriate, back up the system.
 	5. Change the password(s) to the affected system(s).
 	6. Determine whether it is safe to continue operations with the affect system(s).
-	7. If it is safe, allow the system to continue to function; 
+	7. If it is safe, allow the system to continue to function;
 		1. Complete any documentation relative to the security incident on the SIR Form.
-		2. Move to Phase V, Follow-up.	
+		2. Move to Phase V, Follow-up.
 	8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
 	9. The individual completing this phase provides written communication to the SIRT.
 4. Continuously apprise Senior Management of progress.
@@ -126,5 +126,3 @@ Individuals needed and responsible to respond to a security incident make up a S
 * Privacy Officer
 * Senior Management
 * VP of Engineering
-
-
