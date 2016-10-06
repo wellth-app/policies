@@ -110,7 +110,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 
 1. Contact Partners and Customers affected - Web Services
 2. Assess damage to the environment - Web Services
-3. Begin replication of new environment using automated and tested scrips, currently Salt. At this point it is determined whether to recover in Rackspace, AWS, Azure, or SoftLayer. - Dev Ops
+3. Begin replication of new environment using automated and tested scripts. At this point it is determined whether to recover in Rackspace, AWS, Azure, or SoftLayer. - Dev Ops
 4. Test new environment using pre-written tests - Web Services
 5. Test logging, security, and alerting functionality - Dev Ops
 6. Assure systems are appropriately patched and up to date. - Dev Ops
@@ -122,7 +122,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 This section discusses activities necessary for restoring Wellth operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, Wellth operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
-	* Begin replication of new environment using automated and tested scrips, currently Salt. - Dev Ops
+	* Begin replication of new environment using automated and tested scripts. - Dev Ops
 	* Test new environment using pre-written tests. - Web Services
 	* Test logging, security, and alerting functionality. - Dev Ops
 	* Deploy environment to production - Web Services
