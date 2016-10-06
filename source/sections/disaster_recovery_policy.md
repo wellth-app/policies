@@ -45,7 +45,7 @@ Wellth defined two categories of systems from a disaster recovery perspective.
 
 ## Line of Succession
 
-The following order of succession to ensure that decision-making authority for the Wellth Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Adam Leko, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Wellth Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession to ensure that decision-making authority for the Wellth Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) and Security Officer, Alec Zopf, are responsible for ensuring the safety of personnel and the execution of procedures documented within this Wellth Contingency Plan. If the CTO and VP of Engineering are unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or CPO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 * Alec Zopf, CTO: 610-308-6694, alec@wellthapp.com
 * Matthew Loper, CEO: 714-235-1998, matt@wellthapp.com
