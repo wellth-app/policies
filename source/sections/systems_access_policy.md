@@ -24,7 +24,7 @@ Access to Wellth systems and application is limited for all users, including but
 * 164.312d Person or Entity Authentication
 * 164.312a2i Unique User Identification
 * 164.308a5iiD Password Management
-* 164.312a2iii Automatic Logoff 
+* 164.312a2iii Automatic Logoff
 * 164.310b Workstation Use
 * 164.310c Workstation Security
 * 164.308a3iiC Termination Procedures
@@ -86,12 +86,11 @@ All workstations at Wellth are company owned, and all are laptop Apple products 
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
 * Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or “X-rated”. Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization’s system.
 * Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
-* Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited. 
+* Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited.
 * Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others.
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
 * Workstation hard drives will be encrypted using FileVault 2.0.
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-* All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Wellth, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://catalyze.io/policy/) and have completed this training (https://training.catalyze.io/). Please contact us if you have problems with this - privacy@catalyze.io.*
 
 ## Wireless Access Use
 
@@ -131,11 +130,10 @@ Wellth does not use paper records for any sensitive information. Use of paper fo
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 
-## PaaS Customer Access to Systems
+## Customer Access to Systems
 
-Wellth grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Wellth hosted systems.
+Wellth grants SaaS customer secure system access via API connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Wellth hosted systems.
 
 In the case of data migration, Wellth does, on a case by case basis, support customers in importing data. In these cases Wellth support SCP assuring all data is secured and encrypted in transit.
 
 In the case of an investigation, Wellth will assist customers, at Wellth's discretion, and law enforcement in forensics.
-

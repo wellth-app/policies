@@ -50,16 +50,6 @@ In the case of a breach, Wellth shall notify all affected Customers. It is the r
 12. Sanctions: The organization shall have in place and apply appropriate sanctions against members of its workforce, Customers, and Partners who fail to comply with privacy policies and procedures.
 13. Retaliation/Waiver: Wellth may not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right. The organization may not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
 
-## Wellth PaaS Customer Responsibilities
-
-1. The Wellth Customer that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured ePHI shall, without unreasonable delay and in no case later than 60 calendar days after discovery of a breach, notify Wellth of such breach. The Customer shall provide Wellth with the following information:
-	* A description of what happened, including the date of the breach, the date of the discovery of the breach, and the number of records and Customers affected, if known.
-	* A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
-	* A description of the action taken with regard to notification of patients regarding the breach.
-	* Resolution steps taken to mitigate the breach and prevent future occurrences.
-4. Notice to Media: Wellth Customers are responsible for providing notice to prominent media outlets at the Customer's discretion.
-5. Notice to Secretary of HHS: Wellth Customers are responsible for providing notice to the Secretary of HHS at the Customer's discretion.
-
 ## Sample Letter to Customers in Case of  Breach
 
 [Date]
