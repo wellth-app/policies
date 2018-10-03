@@ -16,18 +16,16 @@ Below are mappings of HIPAA Rules to Wellth controls.
 
 ## Wellth Organizational Concepts
 
-The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS), managed by Aptible. The network components and supporting network infrastructure are contained within the AWS infrastructure and managed by AWS. Wellth does not have physical access into the network components. The Wellth environment consists of firewalls, Apache and nginx web servers, MongoDB database servers, Linux Ubuntu monitoring servers, OSSEC IDS services, Docker containers, and developer tools servers running on Linux Ubuntu.
+The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS), managed by Aptible. The network components and supporting network infrastructure are contained within the AWS infrastructure and managed by AWS. Wellth does not have physical access into the network components. The Wellth environment consists of firewalls, nginx web servers, PostgreSQL database servers, Linux Ubuntu monitoring servers, OSSEC IDS services, Docker containers, and developer tools servers running on Linux Ubuntu.
 
 Within the Wellth Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Wellth assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
 Wellth assures the privacy of all ePHI data at the Application Level.
 
-In the case of Platform Add-ons, once the data is received from the application server, a series of Application Programming Interface (API) calls is made to the database servers where the ePHI resides. The ePHI is separated into MongoDB databases through programming logic built, so that access to one database server will not present you with the full ePHI spectrum.
-
-The bastion host and Apache web servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Wellth network and can only be accessed directly over an SSH connection through the bastion host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason. Remote access to the internal servers is not accessible except through the load balancers and bastion host.
+The bastion host and nginx web servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal Wellth network and can only be accessed directly over an SSH connection through the bastion host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason. Remote access to the internal servers is not accessible except through the load balancers and bastion host.
 
 All Platform Add-ons and operating systems are tested end-to-end for usability, security and impact prior to deployment to production.
 
 ## Version Control
 
-Policies were last updated February 2nd, 2017.
+Policies were last updated October 2nd, 2018.
