@@ -8,7 +8,7 @@ SaaS Customers use hosted software and infrastructure from Wellth to provide ser
 
 ## Compliance Inheritance
 
-Wellth's HIPAA-compliant hosting vendor, HealthcareBlocks, provides compliant hosted software infrastructure for its Customers. HealthcareBlocks has been through a HIPAA compliance audit by a national, 3rd party compliance firm, to validate and map organizational policies and technical settings to HIPAA rules.
+Wellth's HIPAA-compliant hosting vendor, Aptible, provides compliant hosted software infrastructure for its Customers. Aptible has been through a HIPAA compliance audit by a national, 3rd party compliance firm, to validate and map organizational policies and technical settings to HIPAA rules.
 
 Wellth signs business associate agreements (BAAs) with its Customers. These BAAs outline Wellth obligations and Customer obligations, as well as liability in the case of a breach.
 
@@ -16,7 +16,7 @@ Below are mappings of HIPAA Rules to Wellth controls.
 
 ## Wellth Organizational Concepts
 
-The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS), managed by HealthcareBlocks. The network components and supporting network infrastructure are contained within the AWS infrastructure and managed by AWS. Wellth does not have physical access into the network components. The Wellth environment consists of firewalls, Apache and nginx web servers, MongoDB database servers, Linux Ubuntu monitoring servers, OSSEC IDS services, Docker containers, and developer tools servers running on Linux Ubuntu.
+The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS), managed by Aptible. The network components and supporting network infrastructure are contained within the AWS infrastructure and managed by AWS. Wellth does not have physical access into the network components. The Wellth environment consists of firewalls, Apache and nginx web servers, MongoDB database servers, Linux Ubuntu monitoring servers, OSSEC IDS services, Docker containers, and developer tools servers running on Linux Ubuntu.
 
 Within the Wellth Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Wellth assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
